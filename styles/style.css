@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+}
+#todo-form {
+  background-color: #ffffff;
+  padding: 5rem;
+  border: 1px solid #bcb9b9;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 650px;
+  height: 70%;
+
+}
+span{
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+  
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+      

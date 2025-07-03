@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><To-Do></To-Do></title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="scripts/controller.js" defer type="module"></script>
+  </head>
+  <body>
+  <div id="container">
+    <div id="todo-form">
+      <h1>To-Do App</h1>
+      <div class="form">
+        <label for="">Id : </label>
+        <input id = "id" type="text" placeholder="type id here" />
+        <span id="id-error" class="error-msg"></span>
+
+      </div>
+
+      <div class="form">
+        <label  for="name">Name : </label>
+
+        <input type="text" placeholder="type name here" id="name"/>
+          <span id="name-error"></span>
+      </div>
+
+      <div class="form">
+        <label for="">Desc:</label>
+        <textarea   name="" id="desc" rows="10" cols="10" placeholder="enter your to do work"></textarea>
+        <span id="desc-error" class="error-msg"></span>
+
+      </div>
+
+      <div class="form">
+        <label for="">Date:</label>
+        <input  type="date" name="" id="date" />
+        <span id="date-error" class="error-msg"></span>
+
+      </div>
+      <div class="form">
+        <label for="">Time:</label>
+        <input  type="time" name="" id="time" />
+        <span id="time-error" class="error-msg"></span>
+
+      </div>
+      <div class="form">
+        <label for="">Photo:</label>
+        <input type="url" name="" id="photo" />
+        <span id="photo-error" class="error-msg"></span>
+      </div>
+      <div class="form" id="totals">
+        <p>
+          total records: <span id="total">0</span> marked Records:
+          <span id="marked">0</span> Unmarked Records:
+          <span id="unmarked"></span>0
+        </p>
+      </div class="form">
+      <div class="" id="operations">
+        <button id="add" >Add </button>
+        <button>Delete</button>
+        <button>Update</button>
+        <button>Search</button>
+        <button>Save</button>
+        <button>Clear All</button>
+      </div>
+      <div id="table">
+        <table>
+            <thead id="thead">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Desc</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Photo</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
